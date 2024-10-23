@@ -11,10 +11,6 @@ import { Digit } from "./digit";
 const Home = ({ counter }) => {
   let auxArr = counter.toString().split("").reverse();
 
-  const resetButton = document.querySelector("#stop");
-  resetButton.addEventListener("click", () => {
-    counter = 0;
-  });
 
   return (
     <div>
